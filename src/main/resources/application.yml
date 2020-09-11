@@ -46,7 +46,7 @@ spring:
         - id: cook
           uri: http://cook:8080
           predicates:
-            - Path=/cooks/**/cancellations/** 
+            - Path=/cooks/**,/cancellations/** 
         - id: delivery
           uri: http://delivery:8080
           predicates:
