@@ -2,7 +2,7 @@ version: 0.2
 
 env:
   variables:
-    IMAGE_REPO_NAME: "tt-tcl03-gateway"
+    IMAGE_REPO_NAME: "gateway"
     _PROJECT_NAME: "tt-tcl03-gateway"
 
 phases:
